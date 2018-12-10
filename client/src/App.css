@@ -1,0 +1,153 @@
+#logo{
+  margin-left: 20px;
+}
+#logotext{
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  color: #555555;
+  display: inline-block;
+}
+#logoimage{
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+#mainwrapper{
+  display: grid;
+  grid-template-columns: 300px auto;
+  min-width: 700px;
+}
+#searchformwrapper{
+  display: inline-block;
+  width: 80%;
+  margin: 20px;
+  background: rgba(0,0,0,0.04);
+  border: 1px solid rgba(0,0,0,0);
+  border-radius: 4px;
+}
+#searchtext{
+  background: transparent;
+  border: none;
+  display: inline-block;
+  width: 80%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+#searchbutton{
+  margin: 5px;
+  display: inline-block;
+  background: transparent;
+  border: none;
+}
+#searchbutton > img{
+  opacity: 0.5;
+}
+#sidebarhomeli{
+  list-style-type: none;
+  display: inline-block;
+}
+#sidebarartli{
+  list-style-type: none;
+  display: inline-block;
+}
+#sidebarcodeli{
+  list-style-type: none;
+  display: inline-block;
+}
+#sidebarcurrentlybuildingli{
+  list-style-type: none;
+  display: inline-block;
+}
+#sidebarcontactli{
+  list-style-type: none;
+  display: inline-block;
+}
+.sidebarcontentlink{
+  display: block;
+  border-radius: 0px 40px 40px 0px;
+  margin-right: 20px;
+  transition: all 300ms cubic-bezier(0.165, 0.840, 0.440, 1.000);
+}
+.sidebarcontentlink:hover{
+  background-color: rgba(0,0,0,0.04);;
+}
+.sidebarcontentlink > div{
+  margin-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.sidebarcontentlink li{
+  color: #555555;
+}
+#sidebarcontent{
+  padding: 0px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+#sidebarcontent > .is-active{
+  background-color: #c9c4a5;
+}
+#sidebarcontent > .is-active li{
+  color: #367944;
+}
+#sidebarhomeicon{
+  background-image: url('/images/homeicon.svg');
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-right: 20px;
+  vertical-align: top;
+  background-position: center;
+}
+#sidebarcontent > .is-active #sidebarhomeicon{
+  background-image: url('/images/homeiconactive.svg');
+}
+#sidebararticon{
+  background-image: url('/images/articon.svg');
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-right: 20px;
+  vertical-align: top;
+  background-position: center;
+}
+#sidebarcontent > .is-active #sidebararticon{
+  background-image: url('/images/articonactive.svg');
+}
+#sidebarcodeicon{
+  background-image: url('/images/codeicon.svg');
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-right: 20px;
+  vertical-align: top;
+  background-position: center;
+}
+#sidebarcontent > .is-active #sidebarcodeicon{
+  background-image: url('/images/codeiconactive.svg');
+}
+#sidebarcurrentlybuildingicon{
+  background-image: url('/images/buildicon.svg');
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-right: 20px;
+  vertical-align: top;
+  background-position: center;
+}
+#sidebarcontent > .is-active #sidebarcurrentlybuildingicon{
+  background-image: url('/images/buildiconactive.svg');
+}
+#sidebarcontacticon{
+  background-image: url('/images/contacticon.svg');
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-right: 20px;
+  vertical-align: top;
+  background-position: center;
+}
+#sidebarcontent > .is-active #sidebarcontacticon{
+  background-image: url('/images/contacticonactive.svg');
+}
